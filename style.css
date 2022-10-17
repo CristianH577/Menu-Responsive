@@ -59,6 +59,10 @@ nav{
     border-bottom: 1px solid salmon;
     position: sticky;
     top: 0;
+    z-index: 1;
+}
+nav svg{
+    cursor: pointer;
 }
 .nav-container{
     height: 100%;
@@ -187,6 +191,7 @@ svg{
     }
     .nav-submenu{
         position: unset;
+        text-indent: 10px;
     }
 
     #submenu-check2:checked+a,
